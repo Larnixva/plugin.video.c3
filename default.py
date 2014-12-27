@@ -130,34 +130,32 @@ halls = { '1' : loc(30001), '2' : loc(30002), 'G' : loc(30003), '6' : loc(30004)
 trans = { '0' : loc(30005), '1' : loc(30006) }
 
 urls = { '1' : { '0' :
-					{ '2' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_native_hd',
-					'1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_native_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_native_lq'},
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s1_native_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s1_native_sd.m3u8'},
 				'1' :
-					{ '2' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_translated_hd',
-					'1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_translated_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_translated_lq' }
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s1_translated_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s1_translated_sd.m3u8'}
 			},
 		'2' : { '0' :
-					{ '1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal2_native_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal2_native_lq' },
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s2_native_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s2_native_sd.m3u8' },
 				'1' :
-					{ '1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal2_translated_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal2_translated_lq' }
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s2_translated_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s2_translated_sd.m3u8' }
 			},
 		'G' : { '0' :
-					{ '1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saalg_native_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saalg_native_lq' },
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s3_native_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s3_native_sd.m3u8' },
 				'1' :
-					{ '1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saalg_translated_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saalg_translated_lq' }
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s3_translated_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s3_translated_sd.m3u8' }
 			},
 		'6' : { '0' :
-					{ '1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal6_native_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal6_native_lq' },
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s4_native_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s4_native_sd.m3u8' },
 				'1' :
-					{ '1' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal6_translated_hq',
-					'0' : 'rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal6_translated_lq' }
+					{ '1' : 'http://hls.stream.c3voc.de/hls/s4_translated_hd.m3u8',
+					'0' : 'http://hls.stream.c3voc.de/hls/s4_translated_sd.m3u8' }
 			}
 	}
 	
