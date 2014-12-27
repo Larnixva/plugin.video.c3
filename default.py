@@ -28,7 +28,7 @@ if sys.argv[1] == 'resetetag':
 
 addon_handle = int(sys.argv[1])
 
-resolution = addon.getSetting('resolution') #LQ - 0; HQ - 1; HD - 2
+resolution = addon.getSetting('resolution') #SD - 0; HD - 1; Auto - 2
 translated = addon.getSetting('translated') #original - 0; translated - 1
 '''
 def log(msg):
@@ -130,31 +130,39 @@ halls = { '1' : loc(30001), '2' : loc(30002), 'G' : loc(30003), '6' : loc(30004)
 trans = { '0' : loc(30005), '1' : loc(30006) }
 
 urls = { '1' : { '0' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s1_native_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s1_native.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s1_native_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s1_native_sd.m3u8'},
 				'1' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s1_translated_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s1_translated.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s1_translated_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s1_translated_sd.m3u8'}
 			},
 		'2' : { '0' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s2_native_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s2_native.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s2_native_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s2_native_sd.m3u8' },
 				'1' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s2_translated_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s2_translated.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s2_translated_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s2_translated_sd.m3u8' }
 			},
 		'G' : { '0' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s3_native_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s3_native.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s3_native_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s3_native_sd.m3u8' },
 				'1' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s3_translated_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s3_translated.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s3_translated_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s3_translated_sd.m3u8' }
 			},
 		'6' : { '0' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s4_native_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s4_native.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s4_native_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s4_native_sd.m3u8' },
 				'1' :
-					{ '1' : 'http://hls.stream.c3voc.de/hls/s4_translated_hd.m3u8',
+					{ '2' : 'http://hls.stream.c3voc.de/hls/s4_translated.m3u8',
+					'1' : 'http://hls.stream.c3voc.de/hls/s4_translated_hd.m3u8',
 					'0' : 'http://hls.stream.c3voc.de/hls/s4_translated_sd.m3u8' }
 			}
 	}
