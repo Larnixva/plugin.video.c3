@@ -11,13 +11,13 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>31C3 streams</summary>
-    <description>Watch streams from the 31C3 halls and the Sendezentrum, listen to the DJ sets</description>
+    <description>Watch streams from the 31C3 and The Sendezentrum</description>
     <platform>all</platform>
     <language>en de</language>
     <license>GPL v3</license>
     <source>https://github.com/ToddShepard/plugin.video.c3</source>
     <forum></forum>
     <website>https://github.com/ToddShepard/plugin.video.c3</website>
-    <email></email>
+	  <email></email>
   </extension>
 </addon>
