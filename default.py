@@ -12,7 +12,7 @@ from xml.dom import minidom
 from datetime import datetime, timedelta
 
 addon = xbmcaddon.Addon('plugin.video.c3')
-xmlurl = 'http://events.ccc.de/congress/2014/Fahrplan/schedule.xml'
+xmlurl = 'https://31c3.cc/cccsync/congress/2014/Fahrplan/schedule.xml'
 addondir = xbmc.translatePath(addon.getAddonInfo('profile'))
 if not xbmcvfs.exists(addondir):
 	xbmcvfs.mkdirs(addondir)
