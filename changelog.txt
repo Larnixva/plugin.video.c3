@@ -1,5 +1,6 @@
 1.2.0
-- 
+- [+]	Added Sendezentrum stream
+- [*]	Now using the JSON file instead of the XML one
 
 1.0.0
 - [+]   First stable release version
