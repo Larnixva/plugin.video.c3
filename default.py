@@ -152,6 +152,7 @@ for key, value in halls.iteritems():
         li = xbmcgui.ListItem(value + ' - ' + talk['title'], talk['subtitle'], iconImage='defaultvideo.png')
         #li.setProperty('TotalTime', '3600')
         #log(str(get_tag_info(talk, 'persons')))
+        namesArr = []
         for person in talk['persons']:
             namesArr.append(person['full_public_name'])
         names = ' / '.join(namesArr)
